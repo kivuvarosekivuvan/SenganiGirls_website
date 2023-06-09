@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins.woff2') format('woff2'),
+       url('/fonts/poppins.woff') format('woff');
+}
+
+
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color:rgb(124, 38, 38);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100
+  }
+  #sengani{
+    color: white;
+    margin-left: 20px;
+  }
+#girls{
+    color: white;
+  }
+  nav h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav h1 span {
+    font-weight: normal;
+    
+  }
+  #empower1{
+    font-weight: 900;
+    font-size: 45px;
+    margin-left: 20px;
+    margin-top: 200px;
+  }
+  .empower2{
+    color: rgb(136, 28, 28);
+    font-weight: 900;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-top: -40px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color:white;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  
+  nav li a:hover {
+    background-color:rgb(216, 140, 10);
+    color: rgb(214, 56, 56);
+    border-radius: 40px;
+  }
+  #pic1{
+    margin-left: 800px;width: 50%;
+    margin-top: -300px;
+    border-radius: 50px;
+  }
+  #welcome{
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+
+  /* Section2 */
+
+
+ /* Section3 */
+#titles{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(124, 38, 38);
+    padding: 10px;
+    z-index: 100
+  }
+  #sengani{
+    color: white;
+    margin-left: 20px;
+  }
+#girls{
+    color: white;
+  }
+  nav h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav h1 span {
+    font-weight: normal;
+    
+  }
+  #empower1{
+    font-weight: 900;
+    font-size: 45px;
+    margin-left: 20px;
+    margin-top: 200px;
+  }
+  .empower2{
+    color: rgb(136, 28, 28);
+    font-weight: 900;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-top: -40px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color:white;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  
+  nav li a:hover {
+    background-color:rgb(216, 140, 10);
+    color: rgb(214, 56, 56);
+    border-radius: 40px;
+  }
+
+
+
+
+
+
+
+
+
+h1{
+    font-size: 50px;margin-left: 600px;
+    color: rgb(136, 28, 28);
+    /* transform: skewY(-5deg); */
+    animation: slantAnimation 2s 2 alternate;
+    margin-top: 40px;
+
+  }
+  @keyframes slantAnimation {
+    0% {
+        transform: skewY(-8deg);
+    }
+    100% {
+        transform: skewY(8deg);
+    }
+  }
+  #words{
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  #mission{
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  #vision{
+    font-size: 25px;
+    margin-left: 20px;
+  
+  }
