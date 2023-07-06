@@ -11,7 +11,7 @@ body, ul {
   }
   
   nav {
-    background-color:rgb(124, 38, 38);
+    background-color:rgb(53, 142, 158);
     padding: 10px;
     position: fixed;
     top: 0;
@@ -39,10 +39,10 @@ body, ul {
     font-weight: 900;
     font-size: 45px;
     margin-left: 20px;
-    margin-top: 200px;
+    margin-top: 30px;
   }
   .empower2{
-    color: rgb(136, 28, 28);
+    color: rgb(53, 142, 158);
     font-weight: 900;
   }
   
@@ -55,30 +55,39 @@ body, ul {
   
   nav li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 0px;
   }
   
   nav li a {
     text-decoration: none;
     color:white;
     padding: 5px 10px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 900;
+    margin-left: 50px;
   }
   
   nav li a:hover {
-    background-color:rgb(216, 140, 10);
-    color: rgb(214, 56, 56);
-    border-radius: 40px;
+    background-color:rgb(141, 205, 216);
+    color: rgb(43, 41, 41);
+    border-radius: 10px;
+    padding: 10px;
   }
+  #student{
+    margin-top: 200px;
+    margin-left: 280px;
+  }
+  
   #pic1{
     margin-left: 800px;width: 50%;
-    margin-top: -300px;
+    margin-top: -400px;
     border-radius: 50px;
+    
   }
   #welcome{
     font-size: 30px;
     margin-left: 20px;
+    margin-top: -20px;
   }
 
 
